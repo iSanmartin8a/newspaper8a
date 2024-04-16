@@ -33,7 +33,7 @@ const Header = () => {
           <p>Precio:</p>
           <p>Un Sol de Oro</p>
         </div>
-        <h1 className={classes.container_header}>NEWSPAPER<span>8a</span></h1>
+        <h1 className={classes.container_header}>NEWSPAPER</h1>
         <div className={classes.container_date}>
           <p>{formattedDate}</p>
           <p>{location}</p>
