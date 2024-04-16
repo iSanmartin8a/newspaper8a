@@ -1,0 +1,67 @@
+.container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px;
+  box-sizing: border-box;
+
+  &_price {
+    // border: 2px solid #cce3de;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: left;
+    width: 15%;
+    height: fit-content;
+    // padding: 16px 32px;
+  }
+
+  &_header {
+    margin: 0;
+    font-size: clamp(36px, 5vw, 72px);
+    font-family: cabolafe;
+    letter-spacing: 16px;
+    width: fit-content;
+    position: relative;
+
+    & span {
+        font-size: 12px;
+        letter-spacing: 2px;
+        color: #fca311;
+        position: absolute;
+        top: 10%;
+    }
+  }
+
+  &_date {
+    font-weight: 700;
+    width: 15%;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+
+    &_date, &_header, &_price {
+        width: 100%;
+        text-align: center;
+    }
+
+    &_date, &_price {
+        font-size: 10px;
+    }
+
+    &_header {
+        font-size: 24px;
+    }
+  }
+}

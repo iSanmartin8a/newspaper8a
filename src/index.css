@@ -1,0 +1,10 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #cce3de;
+  background-color: #22223b;
+}
+
+@font-face {
+  font-family: cabolafe;
+  src: url(./assets/fonts/cabolafe.otf);
+}
