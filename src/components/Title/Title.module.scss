@@ -1,35 +1,35 @@
 .container {
-    width: 100%;
-    padding: 16px 32px;
-    box-sizing: border-box;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    height: fit-content;
+  width: 100%;
+  padding: 16px 32px;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  height: fit-content;
+
+  @include medium {
+    padding: 4px 0px;
+  }
+
+  & p:first-child {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
 
     @include medium {
-        padding: 4px 0px;
+      font-size: 24px;
     }
+  }
 
-    & p:first-child {
-        font-size: 40px;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        margin: 0;
+  & p:last-child {
+    font-size: 32px;
+    margin: 0;
 
-        @include medium {
-            font-size: 24px;
-        }
+    @include medium {
+      font-size: 20px;
     }
-
-    & p:last-child {
-        font-size: 32px;
-        margin: 0;
-
-        @include medium {
-            font-size: 20px;
-        }
-    }
+  }
 }
