@@ -1,3 +1,13 @@
 .container {
+    z-index: 1;
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.5;
     text-align: justify;
+
+  &_image {
+    width: 25vw;
+    float: left;
+    margin-right: 20px;
+  }
 }

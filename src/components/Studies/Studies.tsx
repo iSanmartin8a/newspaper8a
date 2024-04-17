@@ -1,9 +1,10 @@
 import classes from "./Studies.module.scss";
+import child from "./../../assets/imgs/child.jpeg";
 
 const Studies = () => {
   return (
     <div className={classes.container}>
-      <img src="" alt="" />
+      <img src={child} alt="Alejandro Sanmartín de niño" className={classes.container_image} />
       <p>
         Nuestro protagonista, Alejandro Sanmartín, nació un 23 de Mayo de 1998
         (así es, es Géminis y no por ello es mala persona) en Zaragoza, España,
